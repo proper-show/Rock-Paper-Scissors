@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-section {
+    height: 12em;
+    text-align: center;
+}
+
+.game-section {
+    display: flex;
+    gap: 4em;
+    padding: 0 0 5em 0;
+}
+
+.player-div {
+    background-color: beige;
+    height: 8em;
+    width: 8em;
+    text-align: center;
+}
+
+.player-div p {
+    position: relative;
+    top: 30%;
+
+}
+
+.computer-div {
+    background-color: beige;
+    height: 8em;
+    width: 8em;
+    text-align: center;
+}
+
+.computer-div p {
+    position: relative;
+    top: 30%;
+}
+
+.selector-buttons {
+    display: flex;
+    gap: 6em;
+    padding: 0 0 2em 0;
+}
+
+#rock {
+    background-color: rgb(234, 242, 239);
+}
+
+#paper {
+    background-color: rgb(234, 242, 239);
+}
+
+#scissors {
+    background-color: rgb(234, 242, 239);
+}
+
+.enter-button-div {
+   text-align: center;
+}
